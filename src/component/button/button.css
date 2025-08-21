@@ -1,0 +1,14 @@
+.commonBtn {
+  padding: 14px 28px;
+  border-radius: 18px;
+  border: 2px solid #ff5538;
+  color: #fff;
+  background-color: #ff5538;
+  transition: 0.5s ease-in-out;
+  cursor: pointer !important;
+ 
+}
+.commonBtn:hover {
+  color: #ff5538 !important;
+  background: transparent !important;
+}

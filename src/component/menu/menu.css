@@ -1,0 +1,12 @@
+.coustomNav {
+  column-gap: 13px;
+}
+.coustomNav a:hover {
+  color: #ff5538;
+}
+
+
+.navbarMain {
+  background: #ffdcd8;
+  padding: 30px 0;
+}

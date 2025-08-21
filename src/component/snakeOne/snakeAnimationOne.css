@@ -1,0 +1,36 @@
+.snakeOnePrant {
+  width: 500px;
+  height: 500px;
+  background: red;
+}
+
+/* .snakeOneElements {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.dotOne {
+  position: absolute;
+  top: 180px;
+  left: 70%;
+  transform: translateX(-50%);
+  animation: dotOneAimat 6s linear infinite;
+  height: 100px;
+  width: 100px;
+}
+.snakeOne {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@keyframes dotOneAimat {
+  0% {
+    top: 180px;
+    left: 70%;
+  }
+  50% {
+    top: 180px;
+    left: 100%;
+    transform: translateX(-100%);
+  }
+} */

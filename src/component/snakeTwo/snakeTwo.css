@@ -1,0 +1,16 @@
+.snakeCommonCss{
+  position: absolute;
+  animation: snakeCommonAnimation 10s ease-in-out infinite;
+ 
+}
+
+@keyframes snakeCommonAnimation{
+  0%{
+    top: 141px;
+    left: 5%;
+  }
+  50%{
+    left: 10%;
+    top: 160px;
+  }
+}

@@ -1,0 +1,232 @@
+/* animation part start */
+
+.snakeAnimationSameBehiend {
+  position: absolute;
+  width: 0px;
+  top: 0px;
+  right: -144px;
+  animation: sameBehiend 4s infinite ease-in-out;
+}
+@keyframes sameBehiend {
+  0% {
+    width: 0px;
+  }
+  50% {
+    width: 660px;
+  }
+}
+.workCardCircle {
+  transform: translate(calc(-50% + 75px), -50%) !important;
+}
+.cardDotAnimation {
+  position: absolute;
+  bottom: 30px;
+  left: 20%;
+  animation: epic 15s ease-in-out infinite;
+}
+
+@keyframes epic {
+  0% {
+    bottom: 30px;
+    left: 20%;
+  }
+  4% {
+    left: 25%;
+    bottom: 30px;
+  }
+  8% {
+    left: 30%;
+    bottom: 110px;
+  }
+  12% {
+    left: 40%;
+    bottom: 110px;
+  }
+  16% {
+    left: 45%;
+    bottom: 30px;
+    opacity: 1;
+  }
+  17% {
+    left: 46%;
+    bottom: 30px;
+    opacity: 0;
+  }
+  18% {
+    left: 47%;
+    bottom: 30px;
+    opacity: 1;
+  }
+  19% {
+    left: 48%;
+    bottom: 30px;
+    opacity: 0;
+  }
+  20% {
+    left: 49%;
+    bottom: 30px;
+    opacity: 1;
+  }
+  21% {
+    left: 50%;
+    bottom: 30px;
+    opacity: 0;
+  }
+  22% {
+    left: 51%;
+    bottom: 30px;
+    opacity: 1;
+  }
+  23% {
+    left: 52%;
+    bottom: 30px;
+  }
+  26% {
+    left: 55%;
+    bottom: 70px;
+  }
+  29% {
+    left: 58%;
+    bottom: 30px;
+  }
+  31% {
+    left: 61%;
+    bottom: 70px;
+  }
+  34% {
+    left: 64%;
+    bottom: 30px;
+  }
+  37% {
+    left: 67%;
+    bottom: 70px;
+  }
+  40% {
+    left: 70%;
+    bottom: 30px;
+  }
+  42% {
+    left: 73%;
+    bottom: 30px;
+  }
+  46% {
+    left: 80%;
+    bottom: 110px;
+  }
+  50% {
+    left: 86%;
+    bottom: 110px;
+  }
+  54% {
+    left: 80%;
+    bottom: 110px;
+  }
+  58% {
+    left: 73%;
+    bottom: 30px;
+  }
+  60% {
+    left: 70%;
+    bottom: 30px;
+  }
+  63% {
+    left: 67%;
+    bottom: 70px;
+  }
+  66% {
+    left: 64%;
+    bottom: 30px;
+  }
+  71% {
+    left: 61%;
+    bottom: 70px;
+  }
+  74% {
+    left: 58%;
+    bottom: 30px;
+  }
+
+  77% {
+    left: 55%;
+    bottom: 70px;
+  }
+  80% {
+    left: 52%;
+    bottom: 30px;
+  }
+  81% {
+    left: 51%;
+    bottom: 30px;
+    opacity: 1;
+  }
+  82% {
+    left: 50%;
+    bottom: 30px;
+    opacity: 0;
+  }
+  83% {
+    left: 49%;
+    bottom: 30px;
+    opacity: 1;
+  }
+  84% {
+    left: 48%;
+    bottom: 30px;
+    opacity: 0;
+  }
+  85% {
+    left: 47%;
+    bottom: 30px;
+    opacity: 1;
+  }
+  86% {
+    left: 46%;
+    bottom: 30px;
+    opacity: 0;
+  }
+  87% {
+    left: 45%;
+    bottom: 30px;
+    opacity: 1;
+  }
+  91% {
+    left: 40%;
+    bottom: 110px;
+  }
+  93% {
+    left: 30%;
+    bottom: 110px;
+  }
+  96% {
+    left: 25%;
+    bottom: 30px;
+  }
+}
+
+/* animation part end */
+
+.workCount {
+  padding: 120px 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+.workCountCard {
+  text-align: center;
+}
+.workCountCardHeading {
+  font-size: 40px;
+  line-height: 140%;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+.workCountCardRow {
+  --bs-gutter-y: 160px;
+}
+.workCountRightPartPragraph {
+  padding: 20px 0 40px;
+  z-index: 5;
+}
+.workCountRow {
+  align-items: center;
+}

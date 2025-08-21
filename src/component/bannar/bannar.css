@@ -1,0 +1,273 @@
+/* bannar text related css */
+
+.bannar {
+  padding: 150px 0 297px;
+  background: #ffdcd8;
+  position: relative !important;
+  overflow: hidden;
+  z-index: 0;
+}
+.bannarTextElements {
+  text-align: center;
+}
+.bannarButton {
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+}
+.bannarPragraph {
+  padding: 24px 0 44px;
+}
+.bannarCardSection {
+  position: relative;
+  top: -161px !important;
+}
+.bannarCards {
+  box-shadow: 11px 17px 44px -14px rgba(84, 65, 65, 0.53);
+}
+
+/* bannar animation related css */
+
+/* ======= round circle animation one  start ======== */
+
+.roundAnimationOne {
+  transform: translate(calc(-50% + 61px), -50%);
+}
+.circleMainOne {
+  border-color: #ffabba !important;
+  animation: roundCircleOneAnimations 6s infinite linear;
+}
+
+@keyframes roundCircleOneAnimations {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ======= round circle  animation one end ======== */
+
+/* ======= round circle animation Two start ======== */
+.roundAnimationTwo {
+  transform: translate(calc(-50% + 125px), -50%);
+}
+.circleMainTwo {
+  border-color: #fdbfb9 !important;
+  animation: roundCircleTwoAnimations 6s infinite linear;
+}
+
+@keyframes roundCircleTwoAnimations {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ======= round circle animation Two end ======== */
+/* ======= round circle animation three start ======== */
+.roundAnimationOne {
+  transform: translate(calc(-50% + 61px), -50%);
+}
+.circleMainTree {
+  border-color: #c087ee !important;
+  animation: roundCircleThreeAnimations 4s infinite linear;
+}
+@keyframes roundCircleThreeAnimations {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* ======= round circle animation three end ======== */
+
+/* ======= round cross animation start ======== */
+
+.crossAnimationsThree {
+  animation: crossAnimations 4s infinite linear !important;
+}
+
+/* ======= round cross animation end ======== */
+/* ======= Snake  animation start ======== */
+
+/* .snakeAnimationThreeMain {
+} */
+
+.SnakeAnimationThree {
+  transform: translateX(-102%) !important;
+  animation: snakeAnimationThree 6s infinite linear !important;
+  width: 460px !important;
+  height: 490px !important;
+  z-index: 5;
+}
+@keyframes snakeAnimationThree {
+  0% {
+    top: 32%;
+    left: 102%;
+  }
+  50% {
+    top: 39%;
+    left: 105%;
+  }
+}
+
+/* ======= Snake  animation end ======== */
+/* ======= Dot  animation one start ======== */
+
+.dotAnimationFour {
+  animation: dotLeftRightOne 5s infinite ease-in-out;
+  transform: translateX(-102%);
+  z-index: 5;
+}
+@keyframes dotLeftRightOne {
+  0% {
+    top: 70%;
+    left: 90%;
+  }
+  50% {
+    left: 102%;
+    top: 70%;
+  }
+}
+/* ======= Dot  animation one end ======== */
+/* ======= Dot  animation two start ======== */
+
+.dotAnimationFive {
+  animation: dotLeftRightTopUpOne 7s infinite ease-in-out;
+}
+@keyframes dotLeftRightTopUpOne {
+  0% {
+    top: 15%;
+    left: 59%;
+  }
+  11.5% {
+    left: 61%;
+    top: 18%;
+  }
+  25% {
+    left: 64%;
+    top: 15%;
+  }
+  36.5% {
+    left: 67%;
+    top: 18%;
+  }
+  49% {
+    left: 70%;
+    top: 15%;
+  }
+  61.5% {
+    left: 67%;
+    top: 18%;
+  }
+  74% {
+    top: 64%;
+    top: 15%;
+  }
+  90% {
+    left: 61%;
+    top: 18%;
+  }
+}
+
+/* ======= Dot  animation two end ======== */
+/* ======= Dot  animation three start ======== */
+.dotAnimationSix {
+  animation: triangle 0.01s infinite ease-in-out;
+}
+@keyframes triangle {
+  0% {
+    top: 18%;
+    left: 23%;
+  }
+  33.33% {
+    top: 10%;
+    left: 28%;
+  }
+  66.66% {
+    top: 18%;
+    left: 34%;
+  }
+  100% {
+    top: 18%;
+    left: 23%;
+  }
+}
+
+/* ======= Dot  animation three end ======== */
+/* ======= Dot  animation four start======== */
+
+.dotAnimationSeven {
+  animation: straight 6s infinite linear;
+}
+
+@keyframes straight {
+  0% {
+    left: 39%;
+  }
+  50% {
+    left: 45%;
+  }
+  100% {
+    left: 39%;
+  }
+}
+
+/* ======= Dot  animation four end ======== */
+/* ======= Dot  animation five start ======== */
+.bannarCardSection {
+  /* position: relative; */
+}
+.DotImageEights {
+  animation: topButtom 3s linear infinite;
+  /* position: absolute; */
+}
+@keyframes topButtom {
+  0% {
+    top: 18%;
+    left: -8%;
+  }
+  50% {
+    top: 24%;
+    left: -8%;
+  }
+}
+/* ======= Dot  animation five end ======== */
+/* ======= Plate  animation  one  start ======== */
+
+.plateAnimationOne {
+  animation: plateOne 4s ease-in-out infinite !important;
+  z-index: 0;
+}
+
+@keyframes plateOne {
+  0% {
+    top: 73%;
+    left: 90%;
+  }
+  50% {
+    top: 69%;
+    left: 88%;
+  }
+}
+
+/* ======= Plate  animation one  end ======== */
+/* ======= Plate  animation  two start ======== */
+.plateAnimationTwo {
+  animation: plateAnimationTwo 2s linear infinite;
+}
+@keyframes plateAnimationTwo {
+  0% {
+    left: -1%;
+  }
+  50% {
+    left: 0%;
+  }
+}
+/* ======= Plate  animation two  end ======== */

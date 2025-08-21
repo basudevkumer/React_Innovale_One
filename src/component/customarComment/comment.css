@@ -1,0 +1,58 @@
+.cardImagesElement {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  background: #c4c4c4;
+}
+.commentMain {
+  padding: 120px 0;
+}
+.cardimages {
+  display: flex;
+  column-gap: 28px;
+  padding: 60px 0;
+}
+
+.commentParagraph {
+  font-size: 20px !important;
+}
+.commentCard {
+  /* position: relative; */
+}
+.cardPrev:hover {
+  background: #ff5538;
+  color: #fff;
+}
+.cardNext:hover {
+  background: #ff5538;
+  color: #fff;
+}
+.cardPrev,
+.cardNext {
+  position: absolute;
+  padding: 12px 20px;
+  border-radius: 15px;
+  background: #ffddd7;
+  color: #130f26;
+  z-index: 10;
+  transition: 0.3s ease-in-out;
+}
+.cardPrev {
+  bottom: -10px;
+  left: 160px;
+}
+
+.cardNext {
+  bottom: -10px;
+  left: 240px;
+}
+.commentCardParagraph {
+  padding-bottom: 60px;
+}
+.commentImage {
+  max-height: 557px;
+  border-radius: 30px;
+  height: 557px;
+  width: 100%;
+  background: #c4c4c4;
+}

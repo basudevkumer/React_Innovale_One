@@ -1,0 +1,11 @@
+.commonCardHeading {
+  padding: 34px 0 16px;
+}
+.commonCardMain {
+  padding: 40px 25px 40px 30px;
+  background-color: #fff;
+}
+.commonCardImg {
+  height: 80px;
+  width: 80px;
+}

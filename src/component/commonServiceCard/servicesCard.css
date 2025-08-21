@@ -1,0 +1,29 @@
+.servicesHoverButtonText {
+  color: #ff5538;
+  padding-top: 10px;
+}
+.servicesHoverObject {
+  padding: 30px;
+  background: #fff;
+}
+.cardImage {
+}
+.servicesCardMain {
+  position: relative;
+  overflow: hidden;
+}
+.servicesHoverObject {
+  position: absolute;
+  width: 100%;
+  top: 106%;
+  transition: 0.5s ease-in-out;
+}
+.servicesCardMain:hover .servicesHoverObject {
+  top: 100%;
+  transform: translateY(-99%);
+}
+.cardServicesImage {
+  width: 100%;
+  height: 458px;
+  object-fit: cover;
+}

@@ -1,0 +1,13 @@
+.circleImageMain {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 50% ;
+
+}
+
+.circleImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+}
