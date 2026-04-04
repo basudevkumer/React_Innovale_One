@@ -3,7 +3,9 @@
   height: 500px;
   background: red;
 }
-
+.commonImage{
+  object-fit: cover;
+}
 /* .snakeOneElements {
   position: relative;
   width: 100%;
