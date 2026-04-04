@@ -90,6 +90,7 @@ const Bannar = () => {
           width={"478px"}
           top={"141px"}
           left={"5%"}
+          className={"snakeOne"}
         />
 
         <SnakeTwo

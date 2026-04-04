@@ -96,9 +96,6 @@
 /* ======= round cross animation end ======== */
 /* ======= Snake  animation start ======== */
 
-/* .snakeAnimationThreeMain {
-} */
-
 .SnakeAnimationThree {
   transform: translateX(-102%) !important;
   animation: snakeAnimationThree 6s infinite linear !important;
@@ -221,12 +218,8 @@
 
 /* ======= Dot  animation four end ======== */
 /* ======= Dot  animation five start ======== */
-.bannarCardSection {
-  /* position: relative; */
-}
 .DotImageEights {
   animation: topButtom 3s linear infinite;
-  /* position: absolute; */
 }
 @keyframes topButtom {
   0% {
@@ -271,3 +264,117 @@
   }
 }
 /* ======= Plate  animation two  end ======== */
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 991.99px) {
+  .bannar {
+    padding: 100px 0 220px;
+  }
+
+  .bannarCardSection {
+    top: -120px !important;
+  }
+
+  .bannarCards {
+    margin-bottom: 24px;
+  }
+
+  /* decoration elements hide on tablet */
+  .SnakeAnimationThree,
+  .dotAnimationFour,
+  .dotAnimationFive,
+  .plateAnimationOne {
+    display: none;
+  }
+  .snakeOne {
+    display: none;
+  }
+  .circleMainTwo {
+    display: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  .bannar {
+    padding: 80px 0 180px;
+  }
+
+  .bannarCardSection {
+    top: -100px !important;
+  }
+
+  .bannarButton {
+    column-gap: 16px;
+  }
+
+  .bannarCards {
+    margin-bottom: 20px;
+  }
+
+  /* hide more decorations on mobile */
+  .roundAnimationOne,
+  .roundAnimationTwo,
+  .dotAnimationSix,
+  .dotAnimationSeven,
+  .crossAnimationsThree {
+    display: none;
+  }
+  .snakeOne {
+    display: none;
+  }
+  .circleMainTwo {
+    display: hidden;
+  }
+}
+
+@media (max-width: 575px) {
+  .bannar {
+    padding: 60px 0 150px;
+  }
+
+  .bannarPragraph {
+    padding: 16px 0 32px;
+  }
+
+  .bannarButton {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+    column-gap: 0;
+  }
+
+  .bannarCardSection {
+    top: -80px !important;
+  }
+
+  .bannarCards {
+    margin-bottom: 16px;
+  }
+  .snakeOne {
+    display: none;
+  }
+  .circleMainTwo {
+    display: hidden;
+  }
+}
+
+@media (max-width: 320px) {
+  .bannar {
+    padding: 48px 0 120px;
+  }
+
+  .bannarCardSection {
+    top: -60px !important;
+  }
+
+  .bannarPragraph {
+    padding: 12px 0 24px;
+  }
+  .snakeOne {
+    display: none;
+  }
+  .circleMainTwo {
+    display: hidden;
+  }
+}
