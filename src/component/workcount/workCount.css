@@ -145,7 +145,6 @@
     left: 58%;
     bottom: 30px;
   }
-
   77% {
     left: 55%;
     bottom: 70px;
@@ -229,4 +228,113 @@
 }
 .workCountRow {
   align-items: center;
+}
+
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 991.99px) {
+
+  /* animation hide */
+  .snakeAnimationSameBehiend,
+  .cardDotAnimation,
+  .workCardCircle {
+    display: none;
+  }
+
+  .workCount {
+    padding: 80px 0;
+  }
+
+  .workCountCardRow {
+    --bs-gutter-y: 60px;
+  }
+
+  .workCountRightPart {
+    margin-top: 48px;
+  }
+
+  .workCountCardHeading {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .workCount {
+    padding: 60px 0;
+  }
+
+  .workCountCardRow {
+    --bs-gutter-y: 40px;
+  }
+
+  .workCountRightPart {
+    margin-top: 36px;
+  }
+
+  .workCountCardHeading {
+    font-size: 28px;
+  }
+
+  .workCountRightPartPragraph {
+    padding: 16px 0 28px;
+  }
+   .heading2{
+   width: auto;
+    
+  }
+  .workCountRightPartPragraph{
+    text-align: start;
+  }
+}
+
+@media (max-width: 575px) {
+  .workCount {
+    padding: 48px 0;
+  }
+
+  .workCountCardRow {
+    --bs-gutter-y: 32px;
+  }
+
+  .workCountCardHeading {
+    font-size: 26px;
+  }
+
+  .workCountRightPart {
+    margin-top: 28px;
+  }
+
+  .workCountRightPartPragraph {
+    padding: 12px 0 24px;
+  }
+  .heading2{
+   width: auto;
+    
+  }
+  .workCountRightPartPragraph{
+    text-align: start;
+  }
+  .
+}
+
+@media (max-width: 320px) {
+  .workCount {
+    padding: 36px 0;
+  }
+
+  .workCountCardHeading {
+    font-size: 22px;
+  }
+
+  .workCountRightPartPragraph {
+    padding: 10px 0 20px;
+  }
+  .heading2{
+   width: auto;
+    
+  }
+  .workCountRightPartPragraph{
+    text-align: start;
+  }
 }

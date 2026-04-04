@@ -25,25 +25,25 @@ const WorkCount = () => {
           <Col lg={{ span: 5 }}>
             <Container>
               <Row className="workCountCardRow">
-                <Col lg={6}>
+                <Col lg={6} sm={6} xs={6}>
                   <div className="workCountCard">
                     <h2 className="poppins workCountCardHeading">19+</h2>
                     <p className="commonPragraph nunito">Total top service</p>
                   </div>
                 </Col>
-                <Col lg={6}>
+                <Col lg={6} sm={6} xs={6}>
                   <div className="workCountCard">
                     <h2 className="poppins workCountCardHeading">27+</h2>
                     <p className="commonPragraph nunito">Total top service</p>
                   </div>
                 </Col>
-                <Col lg={6}>
+                <Col lg={6} sm={6} xs={6}>
                   <div className="workCountCard">
                     <h2 className="poppins workCountCardHeading">98%</h2>
                     <p className="commonPragraph nunito">Total top service</p>
                   </div>
                 </Col>
-                <Col lg={6}>
+                <Col lg={6} sm={6} xs={6}>
                   <div className="workCountCard">
                     <h2 className="poppins workCountCardHeading">1,458</h2>
                     <p className="commonPragraph nunito">Usual users</p>
