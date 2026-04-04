@@ -1,130 +1,3 @@
-/* animation roted st*/
-/* .digitalCrossAnimation {
-  top: 5%;
-  right: 4%;
-  position: absolute;
-  z-index: 5;
-} */
-
-/* animation roted end*/
-
-/* animation snake start */
-/* .digitalSnake {
-  height: 100px;
-  width: 374px;
-}
-.digitalDotAnimation {
-  position: absolute;
-  top: 145px;
-  left: 0;
-  z-index: 5;
-  animation: leftRight 4s ease-in-out infinite;
-}
-@keyframes leftRight {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: 75px;
-  }
-} */
-/*  animation snake end */
-/* stick animation start  */
-/* .digitalChildPartTwo{
-  position: relative;
-  overflow: hidden;
-
-}
-   .stickAnimation{
-    position: absolute;
-    top: 35%;
-    left: 100%;
-    transform: translateX(-69%);
-   } */
-
-/* stick animation  end */
-
-/* .peopleParagraph {
-  color: #ff5538;
-  padding-bottom: 10px;
-}
-.digitalMain {
-  position: relative;
-  padding: 25px 0 0px;
-}
-
-
-.digitalChildPartOne {
-  background: #c4c4c4;
-  width: 50%;
-  height: 521px;
-  z-index: 5 !important;
-} */
-/* .digitalRoundAnimation {
-  animation: roundDigital 6s infinite linear !important;
-  border-color: #ffabba;
-  z-index: -1 !important;
-}
-@keyframes roundDigital {
-  0% {
-    rotate: 360deg !important;
-  }
-  50% {
-    rotate: 0deg !important;
-  }
-} */
-
-/* .digitalMiddlePart {
-  display: flex;
-  position: relative;
-  padding: 100px 0;
-}
-
-.digitalChildPartTwo {
-  background: #fbf3f0;
-  width: 58%;
-  padding: 160px 0px 160px 185px;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%); 
-}*/
-
-/* =====================  */
-
-/* .workTextPragraph {
-  padding: 10px 0 0;
-  color: #ff5538;
-} */
-
-/* snake animation */
-/* .digitalWork {
-  position: relative;
-  padding: 100px 0 60px;
-}
-
-.digitalAnimation {
-  position: absolute;
-  left: 0px;
-  top: -190px;
-}
-
-.digitalTrasprButton {
-  background: transparent;
-  color: #ff5538;
-}
-
-.digitalTrasprButtonMain {
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  height: 100%;
-}
-.sCard {
-  padding: 80px 0 0;
-  --bs-gutter-y: 23px;  
-} */
-
 /* =======================================================
                    updated css
 ========================================================== */
@@ -181,7 +54,6 @@
 }
 .digitalSnake {
   height: 497px;
-  /* width: 498px; */
   z-index: 0;
 }
 .digitalDotAnimation {
@@ -243,12 +115,115 @@
 .digitalMiddlePart {
   display: flex;
   margin: 60px 0 120px;
-  /* align-items: center; */
   position: relative;
-  /* overflow: hidden;   */
 }
 .digitalChildPartTwoElement {
   padding: 88px 0px 0px 120px;
 }
 
 /* digital middle section end */
+
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 991.99px) {
+
+  /* animation hide on mobile/tablet */
+  .digitalCrossAnimation,
+  .digitalWorkCrossAnimation,
+  .stickImage,
+  .digitalAnimation {
+    display: none;
+  }
+
+  /* middle part layout fix */
+  .digitalMiddlePart {
+    flex-direction: column;
+    margin: 40px 0 60px;
+  }
+
+  .digitalMiddlePartOne {
+    width: 100%;
+    height: 350px;
+  }
+
+  .digitalMiddlePartTwo {
+    width: 100%;
+    height: auto;
+    position: static;
+    transform: none;
+  }
+
+  .digitalChildPartTwoElement {
+    padding: 48px 24px;
+  }
+
+  /* work section */
+  .digitalWork {
+    padding: 20px 0 80px;
+  }
+
+  .digitalTrasprButtonMain {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 24px;
+  }
+
+  .sCard {
+    padding: 40px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .digitalMiddlePartOne {
+    height: 280px;
+  }
+
+  .digitalChildPartTwoElement {
+    padding: 36px 16px;
+  }
+
+  .digitalWork {
+    padding: 20px 0 60px;
+  }
+
+  .sCard {
+    padding: 32px 0 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .digitalMain {
+    padding: 16px 0 0;
+  }
+
+  .digitalMiddlePart {
+    margin: 24px 0 40px;
+  }
+
+  .digitalMiddlePartOne {
+    height: 220px;
+  }
+
+  .digitalChildPartTwoElement {
+    padding: 24px 12px;
+  }
+
+  .digitalWork {
+    padding: 16px 0 48px;
+  }
+
+  .sCard {
+    padding: 24px 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .digitalMiddlePartOne {
+    height: 180px;
+  }
+
+  .digitalChildPartTwoElement {
+    padding: 20px 8px;
+  }
+}
