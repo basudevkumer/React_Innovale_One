@@ -5,3 +5,27 @@
   text-align: center;
   padding-bottom: 60px;
 }
+
+[type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+	cursor: pointer;
+  display: none !important;
+}
+
+.companySlider .slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.companySlider .slick-slide img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+.companySlider .slick-track {
+  display: flex;
+  align-items: center;
+}

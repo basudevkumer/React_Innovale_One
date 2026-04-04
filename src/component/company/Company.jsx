@@ -1,6 +1,8 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import "./company.css";
-import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import Slider from "react-slick"; 
 
 import CardImageOne from "../../assets/cardimage1.png";
 import CardImageTwo from "../../assets/cardimage2.png";
@@ -13,12 +15,38 @@ const Company = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: 5, // default lg
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 992, // md
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 768, // sm
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 576, // xs
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   return (
     <section className="company">
