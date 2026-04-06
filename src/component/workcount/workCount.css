@@ -230,16 +230,14 @@
   align-items: center;
 }
 
-
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 991.99px) {
-
   /* animation hide */
   .snakeAnimationSameBehiend,
   .cardDotAnimation,
   .workCardCircle {
-    display: none;
+   z-index: -1 !important;
   }
 
   .workCount {
@@ -279,11 +277,10 @@
   .workCountRightPartPragraph {
     padding: 16px 0 28px;
   }
-   .heading2{
-   width: auto;
-    
+  .heading2 {
+    width: auto;
   }
-  .workCountRightPartPragraph{
+  .workCountRightPartPragraph {
     text-align: start;
   }
 }
@@ -308,14 +305,13 @@
   .workCountRightPartPragraph {
     padding: 12px 0 24px;
   }
-  .heading2{
-   width: auto;
-    
+  .heading2 {
+    width: auto;
   }
-  .workCountRightPartPragraph{
+  .workCountRightPartPragraph {
     text-align: start;
   }
-  .
+ 
 }
 
 @media (max-width: 320px) {
@@ -330,11 +326,12 @@
   .workCountRightPartPragraph {
     padding: 10px 0 20px;
   }
-  .heading2{
-   width: auto;
-    
+  .heading2 {
+    width: auto;
   }
-  .workCountRightPartPragraph{
+  .workCountRightPartPragraph {
     text-align: start;
   }
+
+ 
 }
