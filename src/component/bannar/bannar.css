@@ -293,6 +293,10 @@
   .circleMainTwo {
     display: hidden;
   }
+   .DotImageEights {
+    width: 200px !important;
+    height: 200px !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -326,6 +330,10 @@
   .circleMainTwo {
     display: hidden;
   }
+   .DotImageEights {
+    width: 100px !important;
+    height: 100px !important;
+  }
 }
 
 @media (max-width: 575px) {
@@ -357,6 +365,10 @@
   .circleMainTwo {
     display: hidden;
   }
+   .DotImageEights {
+    width: 100px !important;
+    height: 100px !important;
+  }
 }
 
 @media (max-width: 320px) {
@@ -377,4 +389,9 @@
   .circleMainTwo {
     display: hidden;
   }
+  .DotImageEights {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
 }
