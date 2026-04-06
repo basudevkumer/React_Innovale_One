@@ -42,7 +42,7 @@
   transform: translateY(-7px) rotate(-45deg);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.99px) {
   .coustomNav {
     flex-direction: column;
     align-items: center !important;
